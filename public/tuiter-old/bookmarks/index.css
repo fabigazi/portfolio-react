@@ -1,0 +1,93 @@
+/* main card formating */
+.wd-main-card-indent {
+    margin: 10px
+}
+
+.wd-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.wd-container .wd-container-text {
+    position: absolute;
+    left: 70px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.wd-grey {
+    color: grey
+}
+
+/* Card Format */
+
+.wd-image-card {
+    margin-left: 70px;
+    margin-top: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: solid;
+    border-color: lightgrey;
+    white-space: nowrap;
+    overflow: hidden;
+    border-width: 1px;
+    max-width: 80%;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0;
+}
+
+.wd-text-card {
+    margin-left: 70px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 75px;
+}
+
+.wd-left-margin {
+    margin: 10px;
+}
+
+.wd-widget-bar {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+
+/* profile format */
+.wd-profile {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    color: grey;
+}
+
+b {
+    color: black;
+}
+
+.wd-fixed-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wd-full-width {
+    margin: 0 auto;
+  }

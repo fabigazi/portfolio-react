@@ -1,0 +1,275 @@
+/* for CSS portion of the explore page */
+/*search bar*/
+
+
+.wd-search-container {
+  position: relative;
+}
+
+.wd-search-container .serch-bar {
+  border-width: 4px;
+  border-color: lightgrey;
+  border-style: solid;
+  border-radius: 50px;
+
+  background-color: lightgrey;
+
+  width: 75%;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wd-search-container .wd-settings-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.wd-search-container .wd-search-icon {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+/*horizontal unorder list tabs */
+
+.wd-unordered-list-horizontal {
+  font-size: large;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+.wd-unordered-list-horizontal li {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  margin: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.wd-tab-container {
+  position:relative
+}
+
+.wd-tab-container .wd-dimension-portrait {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  color: blue;
+  background-color: blue;
+  z-index: 2;
+}
+
+.wd-tab-container .wd-dimension-portrait-blank {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  color: white;
+  background-color: white;
+  z-index: 2;
+}
+
+/* image article */
+
+.wd-img-container {
+  position: relative;
+}
+
+.wd-img-container .wd-img-text {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.wd-red-background {
+  background-color: red;
+}
+
+.wd-img-container .wd-news-image {
+  width: 100%;
+  max-height: 700px;
+}
+
+/* featured section*/
+
+.wd-unordered-list-vertical {
+  font-family: Arial, sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.wd-list-element-vertical {
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.wd-list-element-vertical label {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+b {
+  color: black;
+}
+
+.wd-elips-label {
+  font-size: 20px;
+  color: grey;
+  text-align-last: right;
+}
+
+i {
+  color: grey;
+}
+
+.wd-ellipse {
+  display: flex;
+  align-items: right;
+}
+
+.wd-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* additional for bootsrap poriton */
+
+.wd-full-width {
+  margin: 0 auto;
+}
+
+.wd-left-align {
+  align-self: right;
+}
+
+.wd-search-container .serch-bar-two {
+  border-width: 2px;
+  border-color: lightgrey;
+  border-style: solid;
+  border-radius: 50px;
+
+  background-color: white;
+
+  width: 80%;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wd-rectangle-outline {
+  border-width: 1px;
+  border-color: darkgrey;
+  border-style: solid;
+}
+
+.wd-code-elemnt-img {
+  width: 70px;
+  height: 70px;
+}
+
+.list-group-item .wd-container {
+  display: flex;
+  justify-content: start;
+  position: relative;
+}
+
+.wd-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.wd-container .element {
+  margin-right: 10px;
+}
+
+.wd-container .wd-container-text {
+  position: absolute;
+  left: 70px;
+  z-index: 1;
+}
+
+.list-group-item a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.nav-side-margins {
+  margin: 10px;
+}
+
+.tuit-button {
+  width: 90%;
+}
+
+/* profile format */
+.wd-profile {
+    border-radius: 50%;
+}
+
+/* follow list */
+
+.wd-subcontainer {
+  display: flex;
+  justify-content: start;
+  position: relative;
+  margin-right: 70px;
+  z-index: 1;
+}
+
+.wd-subcontainer img {
+  margin-right: 10px;
+}
+
+.wd-follow-container {
+  display:flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.wd-small-height {
+  margin-top: 8px;
+  height: 30px;
+  right:10px;
+  position:absolute;
+}
+
+.wd-white {
+  color: white;
+}
+
+.wd-blue-text {
+  color: rgb(13, 108, 218);
+}
+
+.wd-fixed-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
