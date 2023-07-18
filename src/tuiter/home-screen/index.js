@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import * as tuitsService from "../tuits-service";
+import { useSelector } from "react-redux";
 
 function HomeScreen() {
-  const [tuit, setTuit] = useSelector("");
+  const [tuit, setTuit] = useSelector((state) => state.users);
   const [allTuits, setAllTuits] = useState([]);
 
   useEffect(() => {
