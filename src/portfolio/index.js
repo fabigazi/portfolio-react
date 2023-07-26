@@ -8,6 +8,7 @@ import authReducer from "../tuiter/reducers/auth-reducer";
 import ProfileScreen from "./profile-screen";
 import commentsReducer from "./reducers/comments-reducer";
 import CommentsList from "./comments";
+import SkillsScreen from "./skills-screen";
 
 const store = configureStore(
    { reducer: {user: authReducer, comments: commentsReducer} }); // go to tuiter index to figure out how to use this
@@ -23,6 +24,7 @@ function Portfolio() {
                      <Route path="/" element={<Navigate to="profile" />} />
                      
                      <Route path="/profile" element={<ProfileScreen />} />
+                     <Route path="/skills" element={<SkillsScreen/>}/>
                   </Routes>
                </div>
                <div className="col-4 d-none d-lg-block">

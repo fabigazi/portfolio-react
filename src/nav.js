@@ -36,8 +36,8 @@ function Nav() {
     //   </div>
     // </nav>
     <nav className="nav nav-tabs mb-2 even-spacing">
-      <Link className="nav-link" to="/portfolio">Portfolio</Link>
-      <Link className="nav-link" to="/skills">Skills</Link>
+      <Link className="nav-link" to="/portfolio/profile">Profile</Link>
+      <Link className="nav-link" to="/portfolio/skills">Skills</Link>
       
       <Link className="nav-link" to="/education">Education</Link>
       <Link className="nav-link" to="/work-experience">Work Experience</Link>

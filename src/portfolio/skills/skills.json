@@ -2,15 +2,15 @@
     {
         "_id": 1,
         "skill": "Java",
-        "keyWords": "Object-Oriented Application Mobile",
+        "keywords": "Object-Oriented Application Mobile",
         "description": "I have been extensivly coding in Java for 7+ years, and I have used it in multiple courses as serveral large personal projects. I am at this point the most familiar with this language",
         "image": "https://cdn-icons-png.flaticon.com/512/226/226777.png"
     },
-    
+
     {
         "_id": 2,
         "skill": "Python",
-        "keyWords": "AI  Application",
+        "keywords": "AI  Application",
         "description": "I have ben extensivly coding in python for 7+ years, and have used it in multiple courses including AI courses. At this point, python is the language I am second most familiar with.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
     }
