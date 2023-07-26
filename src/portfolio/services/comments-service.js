@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:4000/api'; //"https://tuiter-node-server-app-7k6l.onrender.com/api";
+const API_BASE = 'https://portfolio-node-server-6gmc.onrender.com/api';//'http://localhost:4000/api'; //"https://tuiter-node-server-app-7k6l.onrender.com/api";
 const COMMENTS_API = `${API_BASE}/comments`; //'http://localhost:4000/api/tuits';
 
 export const createComment = async (comment) => {
