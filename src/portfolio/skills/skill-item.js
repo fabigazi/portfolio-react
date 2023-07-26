@@ -8,7 +8,7 @@ function SkillItem({ skill, description, image, keywords }) {
     return (
         <li className="list-group-item">
             <div className="row">
-                <div className="col-2">
+                <div className="col-1">
                     <img width={50} className="float-end rounded-circle" src={`${image}`} />
                 </div>
                 <div className="col-10">
