@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
 
-function SkillItem({ skill, description, image, keywords }) {
+function ProjectItem({ skill, description, image, keywords }) {
     useDispatch();
 
     return (
@@ -22,4 +22,4 @@ function SkillItem({ skill, description, image, keywords }) {
 
     );
 };
-export default SkillItem;
+export default ProjectItem;

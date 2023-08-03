@@ -37,10 +37,10 @@ function Nav() {
     // </nav>
     <nav className="nav nav-tabs mb-2 even-spacing">
       <Link className="nav-link" to="/portfolio/profile">Profile</Link>
-      <Link className="nav-link" to="/portfolio/skills">Skills</Link>
-      
-      <Link className="nav-link" to="/education">Education</Link>
-      <Link className="nav-link" to="/work-experience">Work Experience</Link>
+      <Link className="nav-link" to="/portfolio/skills">Skills</Link>      
+      <Link className="nav-link" to="/portfolio/education">Education</Link>
+      <Link className="nav-link" to="/portfolio/projects">Projects</Link>
+      <Link className="nav-link" to="/portfolio/work">Work Experience</Link>
     </nav>
   );
 }

@@ -11,7 +11,7 @@ function ProfileScreen() {
 
                 </div>
                 <h3>Resources</h3>
-                <a href="https://github.com/fabigazi">
+                <a href="https://www.linkedin.com/in/fabian-gaziano/">
                 <div className="row">
                     <div className="col-1">
                         <img width={40} className="float-end rounded-circle" src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" />

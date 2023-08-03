@@ -14,7 +14,7 @@ function CommentItem({ comment, author, date}) {
                     <div>
                         <Typography variant="body1">
                             {author} -
-                            {date}
+                            {" " + date}
                         </Typography>
                     </div>
                     <div>
